@@ -59,6 +59,7 @@ def test_get_title_and_lowest_revenue_and_release_date(data_fixture):
 def test_get_title_and_highest_revenue_and_release_date(data_fixture):
     """Test get_title_and_highest_or_lowest_revenue_and_release_data function."""
     assert (
-        get_title_and_highest_or_lowest_revenue_and_release_data(data_fixture, 1)
+        get_title_and_highest_or_lowest_revenue_and_release_data(
+            data_fixture, 1)
         == "title: Avatar - revenue: 2,923,706,026 - release: 2009-12-15"
     )
