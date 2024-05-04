@@ -1,11 +1,13 @@
 """Config test file for pytest."""
 
+from typing import Any
+
 import pandas as pd
 import pytest
 
 
 @pytest.fixture
-def data_fixture():
+def data_fixture() -> list[dict[Any, Any]]:
     """Data fixture."""
     file = "tests\\tmdb_10_movie.csv"
 

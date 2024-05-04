@@ -5,7 +5,7 @@ from typing import Any
 
 # max = 2923706026
 # min = 0
-def get_highest_revenue(movies_data, flag: Any = None):
+def get_highest_revenue(movies_data: list[dict[Any, Any]], flag: Any = None) -> Any:
     """Get top rated movies."""
     revenue = []
     for data in movies_data:
@@ -17,7 +17,9 @@ def get_highest_revenue(movies_data, flag: Any = None):
 # min = 1911-10-12
 
 
-def get_earliest_published_date(movies_data, flag: Any = None):
+def get_earliest_published_date(
+    movies_data: list[dict[Any, Any]], flag: Any = None
+) -> Any:
     """Get top rated movies."""
     published_date = []
     for data in movies_data:
@@ -25,7 +27,9 @@ def get_earliest_published_date(movies_data, flag: Any = None):
     return max(published_date) if flag else min(published_date)
 
 
-def get_title_and_highest_or_lowest_revenue(movies_data, flag: Any = None):
+def get_title_and_highest_or_lowest_revenue(
+    movies_data: list[dict[Any, Any]], flag: Any = None
+) -> Any:
     """Get top rated movies."""
     highest_revenue = get_highest_revenue(movies_data, flag)
 
@@ -37,8 +41,8 @@ def get_title_and_highest_or_lowest_revenue(movies_data, flag: Any = None):
 
 
 def get_title_and_highest_or_lowest_revenue_and_release_data(
-    movies_data, flag: Any = None
-):
+    movies_data: list[dict[str, Any]], flag: Any = None
+) -> Any:
     """Get top rated movies."""
     highest_revenue = get_highest_revenue(movies_data, flag)
 

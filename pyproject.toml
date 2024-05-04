@@ -19,6 +19,7 @@ Changelog = "https://github.com/https://github.com/Mohamed-I/TDD/releases"
 python = "^3.10"
 click = ">=8.0.1"
 pandas = "^2.2.2"
+pandas-stubs = "^2.2.1.240316"
 
 [tool.poetry.dev-dependencies]
 Pygments = ">=2.10.0"
