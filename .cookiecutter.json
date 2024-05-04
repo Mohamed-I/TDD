@@ -1,0 +1,16 @@
+{
+  "_checkout": "2022.6.3",
+  "_output_dir": "D:\\projects\\TDD",
+  "_repo_dir": "C:\\Users\\moham\\.cookiecutters\\cookiecutter-hypermodern-python",
+  "_template": "gh:cjolowicz/cookiecutter-hypermodern-python",
+  "author": "Mohamed YAHYA",
+  "copyright_year": "2024",
+  "development_status": "Development Status :: 3 - Alpha",
+  "email": "mohamed@mtclicls.com",
+  "friendly_name": "Tdd",
+  "github_user": "https://github.com/Mohamed-I",
+  "license": "MIT",
+  "package_name": "TDD",
+  "project_name": "TDD",
+  "version": "0.0.0"
+}
